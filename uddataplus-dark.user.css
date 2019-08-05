@@ -10,6 +10,7 @@
 
 /* This Stylesheet looks like shit, mostly because the website is also shit. Sorry if anyone ever would want to read through this piece of shit. */
 @-moz-document domain("uddataplus.dk") {
+    /* Global Stuff */
     #wrapper, .page-content, #wrapcontent {
         background-color: #282828;
     }
@@ -20,6 +21,7 @@
     
     body {
         color: #ffffff;
+        background-color: #404040;
     }
     
     .nav-list {
@@ -35,6 +37,75 @@
     a {
         color: #ffffff;
     }
+    
+    a, a:hover {
+        text-decoration: none;
+        text-shadow: none;
+        color: #ffffff;
+    }
+    
+    a:hover {
+        color: #b1b1b1;
+    }
+    
+    /* ------------ */
+    
+    /* Mobil Visning */
+    
+    div[class*="profile-info-value"]>span#username, div[class*="profile-info-value"]>span#country, div[class*="page-header"]>h1 {
+        color: #ffffff;
+    }
+    
+    div#appmenu {
+        background-color: #1C1C1C;
+    }
+    
+    div#appmenu span {
+        color: #ffffff;
+    }
+    
+    div.GML0TVUNEB div.controls button {
+        background-color: #1C1C1C !important;
+        color: #ffffff !important;
+        border-color: #1C1C1C;
+    }
+    
+    div[class*="fullscreen-content GML0TVUL0"], div[class*="always-visible ps-container"], div#settings[class*="page-content no-select"] {
+        background-color: #282828;
+    }
+    
+    .GML0TVUF1>svg *[style*="fill: rgb(236, 242, 247); stroke: rgb(188, 212, 229);"] {
+        fill: #282828 !important;
+    }
+    
+    .GML0TVUF1>svg *[style*="stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);"] {
+        fill: #282828 !important;
+    }
+    
+    div[class*="profile-info-name"] {
+        background-color: #1C1C1C !important;
+        color: #ffffff !important;
+    }
+    
+    div#settings a {
+        background-color: #1C1C1C !important;
+        color: #ffffff !important;
+        border-color: #1C1C1C;
+    }
+    
+    div#settings a:hover {
+        background-color: #2d2d2d !important;
+    }
+    
+    div#settings div.page-header span.pull-right a {
+        background-color: transparent !important;
+        color: #ffffff !important;
+        border-color: #1C1C1C;
+    }
+    
+    /* ------------ */
+    
+    /* Random Stuff */
     
     .well {
         background-color: #1C1C1C;
@@ -137,16 +208,6 @@
         background-color: #1C1C1C;
     }
     
-    a, a:hover {
-        text-decoration: none;
-        text-shadow: none;
-        color: #ffffff;
-    }
-    
-    a:hover {
-        color: #b1b1b1;
-    }
-    
     #language>a {
         color: #ffffff !important;
     }
@@ -163,7 +224,7 @@
         border: 2px solid #1C1C1C;
     }
     
-    .hoverable .btn-primary.disabled, .hoverable .btn-primary[disabled] {
+    .hoverable .btn-primary.disabled, .hoverable .btn-primary[disabled], .hoverable .btn.disabled {
         background-color: #282828 !important;
         border-color: #282828;
         color: #ffffff !important;
@@ -185,10 +246,6 @@
     .sidebar-collapse {
         background-color: #1C1C1C;
     }
-    
-    /*.copyright, .sidebar:before {
-        border-color: #000000;
-    }*/
     
     .btn-info, .btn, .ui-slider-handle, .ui-slider-handle:hover {
         background-color: #ffffff !important;
@@ -228,6 +285,165 @@
         content:url("https://i.imgur.com/GuyV2Tk.png");
     }
     
+    div[class*="page-content"]>div {
+        max-width: none !important;
+    }
+    
+    div[class*="GFSKGEWDFI GFSKGEWDEJ GFSKGEWDMJ GFSKGEWDOH GFSKGEWDJH"] {
+        width: 100%;
+    }
+    
+    div[class*="no-select FB0FEOC-a-a"]>div>div[class*="page-content"] {
+        display: table;
+    }
+    
+    .page-content {
+        display: block;
+    }
+    
+    /* ------------ */
+    
+    /* Aktivitetskalender */
+    
+    div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-O IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-j-f"][style*="background-color: rgb(236, 236, 236); flex: 0 1 auto;"] {
+        background-color: #1C1C1C !important;
+    }
+    
+    div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-O IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-j-f"][style*="background-color: rgb(255, 243, 211); font-style: italic; flex: 0 1 auto;"] {
+        background-color: #098ab5 !important;
+    }
+    
+    div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-O IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-j-f"][style*="background-color: rgb(229, 255, 225); flex: 0 1 auto;"] {
+        background-color: #505f64 !important;
+    }
+    
+    /* ------------ */
+    
+    /* Statistik */
+    
+    div[class*="page-content GHPHQW3DGB"]>div {
+        max-width: none !important;
+    }
+    
+    /* ------------ */
+    
+    /* Karakterer */
+    
+    .OUDPSOB-a-D, .GAWGQ3XBDLB {
+        color: #ffffff;
+    }
+    
+    /* ------------ */
+    
+    /* Ressourcer */
+    
+    .CTAFGN-d-c, .CTAFGN-d-e {
+        height: 60em;
+    }
+    
+    /* ------------ */
+    
+    /* Samtaler */
+    
+    div[class*="modal-header IWI4RYB-c-d"] {
+        background-color: #1C1C1C;
+    }
+    
+    div[class*="position-relative"]>span[class*="gwt-InlineHTML IWI4RYB-o-b"] {
+        background-color: rgba(0,0,0,0.29);
+    }
+    
+    div[class*="modal-footer"] {
+        background-color: #1C1C1C;
+    }
+    
+    /* ------------ */
+    
+    /* TEXT FIXES */
+    
+    div.gwt-HTML>div {
+        overflow: visible;
+        word-break: normal;
+        text-overflow: unset;
+        white-space: normal;
+    }
+    
+    /* ------------ */
+    
+    /* Ressourcer */
+    .CTAFGN-b-w {
+        background-color: #1C1C1C;
+    }
+    
+    .CTAFGN-b-L, .CTAFGN-b-B:hover, .CTAFGN-b-B:hover a {
+        background-color: #1C1C1C !important;
+    }
+    
+    /* ------------ */
+    
+    /* Popup fixes */
+    .GHPHQW3JK.no-select.udialog {
+        position: absolute;
+        margin: auto !important;
+        width: 70%;
+        height: 80%;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
+    
+    div[class*="popupContent"], .GHPHQW3KK {
+        width: 100% !important;
+        height: 100% !important;
+        background-color: #282828;
+    }
+    
+    .GHPHQW3IK, div>div[class*="modal-body GHPHQW3HK"], div>div[class*="modal-body GHPHQW3HK"]>div[class*="page-content GHPHQW3MDB"] {
+        width: 100% !important;
+    }
+    
+    div>div[class*="modal-body GHPHQW3HK"]>div[class*="page-content GHPHQW3MDB"]>div {
+        max-width: none !important;
+        width: 100% !important;
+    }
+    
+    .GHPHQW3LDB {
+        max-width: none !important;
+        width: 100%;
+    }
+    
+    .GHPHQW3PBB {
+        overflow: visible;
+        word-break: normal;
+        text-overflow: unset;
+        white-space: normal;
+    }
+    
+    .GHPHQW3IK .close.GHPHQW3GK {
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding: 2px 15px 0px 0px;
+    }
+    
+    .GHPHQW3IK.modal-header {
+        background-color: #1C1C1C;
+        padding: 9px 0px;
+    }
+    
+    .GHPHQW3IK.modal-header h3 {
+        padding: 0px 15px;
+    }
+    
+    div>div[class*="modal-body GHPHQW3HK"] {
+        background-color: #282828;
+        height: 100%
+    }
+    
+    /* ------------ */
+    
     /* Skema TABEL */
     .GHPHQW3P0, .GHPHQW3A1 table {
         background: #1C1C1C;
@@ -254,4 +470,6 @@
     .GHPHQW3N0 table.GHPHQW3O0 td, .GHPHQW3N0 table.GHPHQW3O0 .GHPHQW3F0 {
         background-color: #282828;
     }
+    
+    /* ------------ */
 }
