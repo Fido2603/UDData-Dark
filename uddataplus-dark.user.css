@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.0.2
+@version        0.0.3
 @description    Fuck UDDATA+
 @license     	MIT License
-@updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/uddataplus-dark.user.css
+@updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
 @author         Hero
 ==/UserStyle== */
 
@@ -19,7 +19,7 @@
         background: #1C1C1C !important;
     }
     
-    body {
+    body, body:before {
         color: #ffffff;
         background-color: #404040;
     }
@@ -448,6 +448,14 @@
     div>div[class*="modal-body GHPHQW3HK"] {
         background-color: #282828;
         height: 100%
+    }
+    
+    span[class*="add-on"] {
+        background-color: #1C1C1C !important;
+    }
+    
+    div.datepicker-days {
+        color: #000000;
     }
     
     /* ------------ */
