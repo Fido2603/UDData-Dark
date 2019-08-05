@@ -1,0 +1,257 @@
+/* ==UserStyle==
+@name           UDDATA+ Dark
+@namespace      github.com/Fido2603
+@version        0.0.1
+@description    Fuck UDDATA+
+@license     	MIT License
+@updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/uddataplus-dark.user.css
+@author         Hero
+==/UserStyle== */
+
+/* This Stylesheet looks like shit, mostly because the website is also shit. Sorry if anyone ever would want to read through this piece of shit. */
+@-moz-document domain("uddataplus.dk") {
+    #wrapper, .page-content, #wrapcontent {
+        background-color: #282828;
+    }
+
+    .navbar, .navbar-inner, #language, #menufarve {
+        background: #1C1C1C !important;
+    }
+    
+    body {
+        color: #ffffff;
+    }
+    
+    .nav-list {
+        color: #1C1C1C;
+    }
+    
+    .alert {
+        background-color: #282828;
+        border: 1px solid #1C1C1C;
+        color: #ffffff;
+    }
+    
+    a {
+        color: #ffffff;
+    }
+    
+    .well {
+        background-color: #1C1C1C;
+        border: none;
+    }
+    
+    div[class*="GFSKGEWDFI"]>ul[class*="nav-list"]>li>a {
+        background-color: #1C1C1C !important;
+    }
+    
+    .GHPHQW3MG, .GHPHQW3MG td, .GHPHQW3MG th {
+        background: #1C1C1C !important;
+    }
+    
+    .table.table-hover tbody tr:hover td, .GAWGQ3XBELB {
+        background-color: #1C1C1C;
+    }
+    
+    .nav-tabs>li>a {
+        background-color: #1C1C1C;
+        color: #ffffff;
+    }
+    
+    .nav-tabs>li>a:hover, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:focus, .nav-tabs>li.active>a:focus {
+        background-color: #282828;
+        color: #ffffff;
+    }
+    
+    .OUDPSOB-a-s {
+        background-color: #ffffff !important;
+        color: #282828;
+    }
+    
+    .OUDPSOB-a-D, .GAWGQ3XBDLB {
+        color: #000000;
+    }
+    
+    .FB0FEOC-p-h {
+        margin-bottom: 10px;
+    }
+    
+    .widget-header {
+        background: #1C1C1C;
+        background-color: #1C1C1C;
+        color: #ffffff;
+    }
+    
+    .OUDPSOB-a-n {
+        color: #000000;
+        background-color: #ffffff !important;
+        border-color: #000000;
+    }
+    
+    .OUDPSOB-a-w {
+        background-color: #ffffff;
+    }
+    
+    .OUDPSOB-a-p {
+        background-color: #282828;
+    }
+    
+    .GNYJ4B4BG, .GJV5IN5BG, .OUDPSOB-a-x {
+        background-color: #1C1C1C;
+    }
+    
+    .nav-tabs>li.active>a {
+        background-color: #282828;
+        color: #ffffff;
+    }
+    
+    .table td {
+        border-color: #ffffff;
+        border-top: 1px solid #ffffff;
+        border-left: 1px solid #ffffff;
+    }
+    
+    th.GHPHQW3HW {
+        border-left-color: #ffffff;
+        border-top-color: #ffffff;
+    }
+    
+    .table-bordered {
+        border: 1px solid #ffffff;
+        border-left: 0;
+    }
+    
+    .GHPHQW3FT {
+        color: #333;
+    }
+    
+    .page-header h1 {
+        color: #ffffff;
+    }
+    
+    .page-header h1 small {
+        color: #ffffff;
+    }
+    
+    .sidebar:before {
+        background-color: #1C1C1C;
+    }
+    
+    a, a:hover {
+        text-decoration: none;
+        text-shadow: none;
+        color: #ffffff;
+    }
+    
+    a:hover {
+        color: #b1b1b1;
+    }
+    
+    #language>a {
+        color: #ffffff !important;
+    }
+    
+    .light-blue {
+        background: #ffffff !important;
+    }
+    
+    .user-info {
+        color: #000000;
+    }
+    
+    .light-blue>.dropdown-toggle>.round {
+        border: 2px solid #1C1C1C;
+    }
+    
+    .hoverable .btn-primary.disabled, .hoverable .btn-primary[disabled] {
+        background-color: #282828 !important;
+        border-color: #282828;
+        color: #ffffff !important;
+    }
+    
+    .light-blue>.dropdown-toggle>.icon-caret-down {
+        color: #1C1C1C;
+    }
+    
+    /*.badge-important {
+        background-color: #3a87ad !important;
+    }*/
+    
+    .nav-list>li>a {
+        background-color: #1C1C1C;
+        color: #ffffff;
+    }
+    
+    .sidebar-collapse {
+        background-color: #1C1C1C;
+    }
+    
+    /*.copyright, .sidebar:before {
+        border-color: #000000;
+    }*/
+    
+    .btn-info, .btn, .ui-slider-handle, .ui-slider-handle:hover {
+        background-color: #ffffff !important;
+        border-color: #ffffff;
+        color: #282828 !important;
+    }
+    
+    td>div>button>i.icon-ellipsis-horizontal {
+        color: #ffffff !important;
+    }
+    
+    .sidebar-collapse, .sidebar-collapse:before {
+        border-bottom: none;
+        border-top: none;
+    }
+    
+    .sidebar-collapse {
+        margin-top: 5px;
+    }
+    
+    .table thead tr th {
+        background-color: #1C1C1C !important;
+    }
+    
+    .ui-slider-range {
+        background-color: #1C1C1C;
+    }
+    
+    .sidebar-collapse>[class*="icon-"] {
+        color: #ffffff;
+        border: 1px solid #1C1C1C;
+        border-color: #1C1C1C !important;
+        background-color: #1C1C1C;
+    }
+    
+    a.brand img {
+        content:url("https://i.imgur.com/GuyV2Tk.png");
+    }
+    
+    /* Skema TABEL */
+    .GHPHQW3P0, .GHPHQW3A1 table {
+        background: #1C1C1C;
+        color: #ffffff;
+    }
+    
+    th.fc-widget-header div[class*="gwt-Label"] {
+        color: #ffffff;
+    }
+    
+    .GHPHQW3IOB {
+        background-color: #282828 !important;
+        border: none;
+    }
+    
+    table.GHPHQW3IOB th.fc-widget-header {
+        border: none;
+    }
+    
+    .GHPHQW3A1 table tr th {
+        color: #ffffff;
+    }
+    
+    .GHPHQW3N0 table.GHPHQW3O0 td, .GHPHQW3N0 table.GHPHQW3O0 .GHPHQW3F0 {
+        background-color: #282828;
+    }
+}
