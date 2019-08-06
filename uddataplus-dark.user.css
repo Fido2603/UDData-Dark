@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.0.3
+@version        0.0.4
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -46,6 +46,10 @@
     
     a:hover {
         color: #b1b1b1;
+    }
+    
+    li[class*="light-blue open"]>a>i[class*="icon-"] {
+        color: #1C1C1C;
     }
     
     /* ------------ */
