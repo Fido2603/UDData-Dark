@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.0.6
+@version        0.0.7
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -473,6 +473,23 @@
     div.datepicker-days {
         color: #000000;
     }
+    
+    /* ------------ */
+    
+    /* Opgaver */
+    
+    table[class*="table dataTable GJV5IN5BHT"] td[style*="padding: 20px; background-color: rgb(255, 242, 204);"] {
+        background-color: #1C1C1C !important;
+    }
+    
+    div[class*="form-actions"] {
+        background-color: #1C1C1C;
+    }
+    
+    button[class*="btn btn-mini utb icon-only btn-link editCellHoverZoom disabled"] i[class*="icon-only icon-large icon-"] {
+        color: #ffffff;
+    }
+    
     
     /* ------------ */
     
