@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.1.0
+@version        0.1.1
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -10,13 +10,26 @@
 
 /* This Stylesheet looks like shit, mostly because the website is also shit. Sorry if anyone ever would want to read through this piece of shit. */
 @-moz-document domain("uddataplus.dk") {
+    /* Color sheets */
+    /*
+    Main color: #282828
+    Other main color: #1C1C1C
+    
+    New other main color: #000001;
+    */
+    
     /* Global Stuff */
+    :root {
+        --main-bg-color: #282828;
+        --main-mark-color: #000001;
+    }
+    
     #wrapper, .page-content, #wrapcontent {
-        background-color: #282828;
+        background-color: var(--main-bg-color);
     }
 
     .navbar, .navbar-inner, #language, #menufarve {
-        background: #1C1C1C !important;
+        background: var(--main-mark-color) !important;
     }
     
     body, body:before {
@@ -25,12 +38,12 @@
     }
     
     .nav-list {
-        color: #1C1C1C;
+        color: var(--main-mark-color);
     }
     
     .alert {
-        background-color: #282828;
-        border: 1px solid #1C1C1C;
+        background-color: var(--main-bg-color);
+        border: 1px solid var(--main-mark-color);
         color: #ffffff;
     }
     
@@ -49,7 +62,7 @@
     }
     
     li[class*="light-blue open"]>a>i[class*="icon-"] {
-        color: #1C1C1C;
+        color: var(--main-mark-color);
     }
     
     /* ------------ */
@@ -61,7 +74,7 @@
     }
     
     div#appmenu {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     div#appmenu span {
@@ -69,32 +82,32 @@
     }
     
     div.GML0TVUNEB div.controls button {
-        background-color: #1C1C1C !important;
+        background-color: var(--main-mark-color) !important;
         color: #ffffff !important;
-        border-color: #1C1C1C;
+        border-color: var(--main-mark-color);
     }
     
     div[class*="fullscreen-content GML0TVUL0"], div[class*="always-visible ps-container"], div#settings[class*="page-content no-select"] {
-        background-color: #282828;
+        background-color: var(--main-bg-color);
     }
     
     .GML0TVUF1>svg *[style*="fill: rgb(236, 242, 247); stroke: rgb(188, 212, 229);"] {
-        fill: #282828 !important;
+        fill: var(--main-bg-color) !important;
     }
     
     .GML0TVUF1>svg *[style*="stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);"] {
-        fill: #282828 !important;
+        fill: var(--main-bg-color) !important;
     }
     
     div[class*="profile-info-name"] {
-        background-color: #1C1C1C !important;
+        background-color: var(--main-mark-color) !important;
         color: #ffffff !important;
     }
     
     div#settings a {
         background-color: #1C1C1C !important;
         color: #ffffff !important;
-        border-color: #1C1C1C;
+        border-color: var(--main-mark-color);
     }
     
     div#settings a:hover {
@@ -104,7 +117,7 @@
     div#settings div.page-header span.pull-right a {
         background-color: transparent !important;
         color: #ffffff !important;
-        border-color: #1C1C1C;
+        border-color: var(--main-mark-color);
     }
     
     /* ------------ */
@@ -112,35 +125,35 @@
     /* Random Stuff */
     
     .well {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
         border: none;
     }
     
     div[class*="GFSKGEWDFI"]>ul[class*="nav-list"]>li>a {
-        background-color: #1C1C1C !important;
+        background-color: var(--main-mark-color) !important;
     }
     
     .GHPHQW3MG, .GHPHQW3MG td, .GHPHQW3MG th {
-        background: #1C1C1C !important;
+        background: var(--main-mark-color) !important;
     }
     
     .table.table-hover tbody tr:hover td, .GAWGQ3XBELB {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     .nav-tabs>li>a {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
         color: #ffffff;
     }
     
     .nav-tabs>li>a:hover, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:focus, .nav-tabs>li.active>a:focus {
-        background-color: #282828;
+        background-color: var(--main-bg-color);
         color: #ffffff;
     }
     
     .OUDPSOB-a-s {
         background-color: #ffffff !important;
-        color: #282828;
+        color: var(--main-bg-color);
     }
     
     .OUDPSOB-a-D, .GAWGQ3XBDLB {
@@ -168,15 +181,15 @@
     }
     
     .OUDPSOB-a-p {
-        background-color: #282828;
+        background-color: var(--main-bg-color);
     }
     
     .GNYJ4B4BG, .GJV5IN5BG, .OUDPSOB-a-x {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     .nav-tabs>li.active>a {
-        background-color: #282828;
+        background-color: var(--main-bg-color);
         color: #ffffff;
     }
     
@@ -209,7 +222,7 @@
     }
     
     .sidebar:before {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     #language>a {
@@ -225,17 +238,17 @@
     }
     
     .light-blue>.dropdown-toggle>.round {
-        border: 2px solid #1C1C1C;
+        border: 2px solid var(--main-mark-color);
     }
     
     .hoverable .btn-primary.disabled, .hoverable .btn-primary[disabled], .hoverable .btn.disabled {
-        background-color: #282828 !important;
-        border-color: #282828;
+        background-color: var(--main-bg-color) !important;
+        border-color: var(--main-bg-color);
         color: #ffffff !important;
     }
     
     .light-blue>.dropdown-toggle>.icon-caret-down {
-        color: #1C1C1C;
+        color: var(--main-mark-color);
     }
     
     /*.badge-important {
@@ -243,18 +256,18 @@
     }*/
     
     .nav-list>li>a {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
         color: #ffffff;
     }
     
     .sidebar-collapse {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     .btn-info, .btn, .ui-slider-handle, .ui-slider-handle:hover {
         background-color: #ffffff !important;
         border-color: #ffffff;
-        color: #282828 !important;
+        color: var(--main-bg-color) !important;
     }
     
     td>div>button>i.icon-ellipsis-horizontal {
@@ -271,18 +284,18 @@
     }
     
     .table thead tr th {
-        background-color: #1C1C1C !important;
+        background-color: var(--main-mark-color) !important;
     }
     
     .ui-slider-range {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     .sidebar-collapse>[class*="icon-"] {
         color: #ffffff;
-        border: 1px solid #1C1C1C;
-        border-color: #1C1C1C !important;
-        background-color: #1C1C1C;
+        border: 1px solid var(--main-mark-color);
+        border-color: var(--main-mark-color) !important;
+        background-color: var(--main-mark-color);
     }
     
     a.brand img {
@@ -310,7 +323,7 @@
     /* Aktivitetskalender */
     
     div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-O IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-j-f"][style*="background-color: rgb(236, 236, 236); flex: 0 1 auto;"] {
-        background-color: #1C1C1C !important;
+        background-color: var(--main-mark-color) !important;
     }
     
     div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-O IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-j-f"][style*="background-color: rgb(255, 243, 211); font-style: italic; flex: 0 1 auto;"] {
@@ -350,7 +363,7 @@
     /* Samtaler */
     
     div[class*="modal-header IWI4RYB-c-d"] {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     div[class*="IWI4RYB-d-r IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-d-t IWI4RYB-d-N"] div[class*="gwt-HTML IWI4RYB-b-G"] {
@@ -362,7 +375,7 @@
     }
     
     div[class*="modal-footer"] {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-d-Q"]>div[class*="IWI4RYB-d-r IWI4RYB-d-O IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-b-i IWI4RYB-b-x IWI4RYB-d-H"]>a[class*="gwt-Anchor"][style*="color: black; cursor: default; text-decoration: none; flex: 0 1 auto;"] {
@@ -370,7 +383,7 @@
     }
     
     div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-O IWI4RYB-d-f IWI4RYB-b-c IWI4RYB-b-l IWI4RYB-d-k IWI4RYB-b-k"] {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     div[class*="gwt-HTML do-select"] a {
@@ -392,11 +405,11 @@
     
     /* Ressourcer */
     .CTAFGN-b-w {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     .CTAFGN-b-L, .CTAFGN-b-B:hover, .CTAFGN-b-B:hover a {
-        background-color: #1C1C1C !important;
+        background-color: var(--main-mark-color) !important;
     }
     
     /* ------------ */
@@ -424,7 +437,7 @@
     div[class*="popupContent"], .GHPHQW3KK {
         width: 100% !important;
         height: 100% !important;
-        background-color: #282828;
+        background-color: var(--main-bg-color);
     }
     
     .GHPHQW3IK, div>div[class*="modal-body GHPHQW3HK"], div>div[class*="modal-body GHPHQW3HK"]>div[class*="page-content GHPHQW3MDB"] {
@@ -457,7 +470,7 @@
     }
     
     .GHPHQW3IK.modal-header {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
         padding: 9px 0px;
     }
     
@@ -466,12 +479,12 @@
     }
     
     div>div[class*="modal-body GHPHQW3HK"] {
-        background-color: #282828;
+        background-color: var(--main-bg-color);
         height: 100%
     }
     
     span[class*="add-on"] {
-        background-color: #1C1C1C !important;
+        background-color: var(--main-mark-color) !important;
     }
     
     div.datepicker-days {
@@ -483,11 +496,11 @@
     /* Opgaver */
     
     table[class*="table dataTable GJV5IN5BHT"] td[style*="padding: 20px; background-color: rgb(255, 242, 204);"] {
-        background-color: #1C1C1C !important;
+        background-color: var(--main-mark-color) !important;
     }
     
     div[class*="form-actions"] {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
     }
     
     button[class*="btn btn-mini utb icon-only btn-link editCellHoverZoom disabled"] i[class*="icon-only icon-large icon-"] {
@@ -499,7 +512,7 @@
     
     /* Skema TABEL */
     .GHPHQW3P0, .GHPHQW3A1 table {
-        background: #1C1C1C;
+        background: var(--main-mark-color);
         color: #ffffff;
     }
     
@@ -508,7 +521,7 @@
     }
     
     .GHPHQW3IOB {
-        background-color: #282828 !important;
+        background-color: var(--main-bg-color) !important;
         border: none;
     }
     
@@ -521,11 +534,11 @@
     }
     
     .GHPHQW3N0 table.GHPHQW3O0 td, .GHPHQW3N0 table.GHPHQW3O0 .GHPHQW3F0 {
-        background-color: #282828;
+        background-color: var(--main-bg-color);
     }
     
     div[class*="GHPHQW3FI GHPHQW3EJ GHPHQW3MJ GHPHQW3OH GHPHQW3JH GHPHQW3AT"] {
-        background-color: #1C1C1C;
+        background-color: var(--main-mark-color);
         color: #ffffff;
     }
     
