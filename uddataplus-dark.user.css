@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.0.8
+@version        0.0.9
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -527,6 +527,10 @@
     div[class*="GHPHQW3FI GHPHQW3EJ GHPHQW3MJ GHPHQW3OH GHPHQW3JH GHPHQW3AT"] {
         background-color: #1C1C1C;
         color: #ffffff;
+    }
+    
+    .GHPHQW3ENB a {
+        max-width: 100%;
     }
     
     /* ------------ */
