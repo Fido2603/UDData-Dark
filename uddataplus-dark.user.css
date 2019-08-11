@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.1.1
+@version        0.1.2
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -497,6 +497,10 @@
     
     table[class*="table dataTable GJV5IN5BHT"] td[style*="padding: 20px; background-color: rgb(255, 242, 204);"] {
         background-color: var(--main-mark-color) !important;
+    }
+
+    table[class*="table dataTable GJV5IN5BHT"] td[style*="padding: 20px; background-color: rgb(226, 240, 217);"] div[class*="gwt-Label"] {
+        color: #70AD47;
     }
     
     div[class*="form-actions"] {
