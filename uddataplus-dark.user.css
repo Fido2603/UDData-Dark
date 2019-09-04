@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.1.3
+@version        0.1.4
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -423,7 +423,9 @@
     /* ------------ */
     
     /* Popup fixes */
-    .GHPHQW3JK.no-select.udialog {
+
+    .GHPHQW3JK.no-select.udialog, .GNYJ4B4BB3.no-select.udialog {
+        /* The popup itself */
         position: absolute;
         margin: auto !important;
         width: 70%;
@@ -434,13 +436,15 @@
         right: 0 !important;
     }
     
-    div[class*="popupContent"], .GHPHQW3KK {
+    div[class*="popupContent"], .GHPHQW3KK, .GNYJ4B4BC3 {
+        /* Tabindex stuff, right after popupContent */
         width: 100% !important;
         height: 100% !important;
         background-color: var(--main-bg-color);
     }
     
-    .GHPHQW3IK, div>div[class*="modal-body GHPHQW3HK"], div>div[class*="modal-body GHPHQW3HK"]>div[class*="page-content GHPHQW3MDB"] {
+    .GHPHQW3IK, div>div[class*="modal-body GHPHQW3HK"], div>div[class*="modal-body GHPHQW3HK"]>div[class*="page-content GHPHQW3MDB"], div>div[class*="modal-body GNYJ4B4BP2"] {
+        /* The popup's header itself, as well as the modal's body, and content inside */
         width: 100% !important;
     }
     
@@ -460,8 +464,22 @@
         text-overflow: unset;
         white-space: normal;
     }
+
+    div[class*="popupContent"]>div>div>div>.modal-footer {
+        /* popup modal footer fixing */
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        padding: 14px 0px 15px;
+    }
+
+    div[class*="popupContent"]>div>div>div>.modal-footer button {
+        /* popup modal footer buttons */
+        margin: 0px 5px;
+    }
     
-    .GHPHQW3IK .close.GHPHQW3GK {
+    .GHPHQW3IK .close.GHPHQW3GK, .GNYJ4B4BA3 .close.GNYJ4B4BO2 {
+        /* The Anchor close in popup header, the cross */
         margin-right: 0;
         margin-top: 0;
         margin-bottom: 0;
@@ -469,18 +487,24 @@
         padding: 2px 15px 0px 0px;
     }
     
-    .GHPHQW3IK.modal-header {
+    .GHPHQW3IK.modal-header, .modal-header.GNYJ4B4BA3 {
+        /* The popup's header itself */
         background-color: var(--main-mark-color);
         padding: 9px 0px;
     }
     
-    .GHPHQW3IK.modal-header h3 {
+    .GHPHQW3IK.modal-header h3, .GNYJ4B4BA3.modal-header h3 {
+        /* Text inside title-header of popup */
         padding: 0px 15px;
     }
     
     div>div[class*="modal-body GHPHQW3HK"] {
         background-color: var(--main-bg-color);
         height: 100%
+    }
+
+    div[class*="GHPHQW3DNB GHPHQW3OMB"]>div[class*="gwt-HTML"] * {
+        color: #ffffff !important;
     }
     
     span[class*="add-on"] {
@@ -489,6 +513,22 @@
     
     div.datepicker-days {
         color: #000000;
+    }
+
+    .form-horizontal>.container-fluid>.row-fluid>div[style*="background-color: rgb(232, 241, 255);"] {
+        /* Policy box stuff */
+        background-color: var(--main-mark-color) !important;
+    }
+
+    .form-horizontal>.container-fluid>.row-fluid>div[style*="background-color: rgb(232, 241, 255);"]>div>.gwt-HTML>div>span[style*="background-color: white;"] {
+        /* Policy box marks */
+        background-color: transparent !important;
+        padding: 5px;
+    }
+
+    .form-horizontal>.container-fluid>.row-fluid>div[style*="background-color: rgb(232, 241, 255);"]>div>.gwt-HTML>div>span[style*="background-color: white;"]>div {
+        /* Policy box text */
+        padding: 5px;
     }
     
     /* ------------ */
@@ -556,6 +596,14 @@
     
     div.GHPHQW3DNB div.gwt-HTML a {
         color: #93cbf9;
+    }
+    
+    /* ------------ */
+    
+    /* Profil */
+
+    .GNYJ4B4BMG, .GNYJ4B4BMG td, .GNYJ4B4BMG th {
+        background: var(--main-bg-color) !important;
     }
     
     /* ------------ */
