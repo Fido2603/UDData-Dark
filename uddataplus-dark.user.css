@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.1.5
+@version        0.1.6
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -131,6 +131,15 @@
     
     div[class*="GFSKGEWDFI"]>ul[class*="nav-list"]>li>a {
         background-color: var(--main-mark-color) !important;
+    }
+    
+    div[class*="GFSKGEWDFI GFSKGEWDMJ GFSKGEWDOH GFSKGEWDJH GFSKGEWDK1 GFSKGEWDHI"]>div>div>div>div>div>div>table>tbody>tr>td>p>span {
+        color: #ffffff !important;
+    }
+    
+    div[class*="GFSKGEWDFI GFSKGEWDMJ GFSKGEWDOH GFSKGEWDJH GFSKGEWDK1 GFSKGEWDHI"]>div>div>div>div>div>div>table>tbody>tr>td {
+        padding: 7.2px !important;
+        border-color: #ffffff !important;
     }
     
     .GHPHQW3MG, .GHPHQW3MG td, .GHPHQW3MG th {
