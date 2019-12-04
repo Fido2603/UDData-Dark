@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.1.7
+@version        0.1.8
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -393,6 +393,11 @@
     
     div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-d-Q"]>div[class*="IWI4RYB-d-r IWI4RYB-d-O IWI4RYB-d-k IWI4RYB-d-f IWI4RYB-b-i IWI4RYB-b-x IWI4RYB-d-H"]>a[class*="gwt-Anchor"][style*="color: black; cursor: default; text-decoration: none; flex: 0 1 auto;"] {
         color: #ffffff !important;
+    }
+    
+    div[class*="always-visible IWI4RYB-q-f IWI4RYB-q-b input-block-level IWI4RYB-q-a ps-container"] {
+        color: #000000 !important;
+        background-color: #ffffff !important;
     }
     
     div[class*="IWI4RYB-d-r IWI4RYB-d-G IWI4RYB-d-O IWI4RYB-d-f IWI4RYB-b-c IWI4RYB-b-l IWI4RYB-d-k IWI4RYB-b-k"] {
