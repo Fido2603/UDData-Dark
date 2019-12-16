@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.1.8
+@version        0.1.9
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -361,6 +361,14 @@
     
     .OUDPSOB-a-D, .GAWGQ3XBDLB {
         color: #ffffff;
+    }
+    
+    .table-striped tbody>tr:nth-child(odd)>td, .table-striped tbody>tr:nth-child(odd)>th {
+        background-color: var(--main-bg-color);
+    }
+    
+    .GAWGQ3XBOS {
+        border-left: 1px solid white !important;
     }
     
     /* ------------ */
