@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.2.0
+@version        0.2.1
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -641,6 +641,16 @@
     div.GHPHQW3DNB div.gwt-HTML a {
         color: #93cbf9;
     }
+    
+    /* ------------ */
+    
+    /* Skema - Lektieoversigt */
+    
+    .GHPHQW3G {
+        background-color: var(--main-mark-color);
+        max-height: 30px;
+    }
+    
     
     /* ------------ */
     
