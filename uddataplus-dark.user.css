@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.1.9
+@version        0.2.0
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -63,6 +63,14 @@
     
     li[class*="light-blue open"]>a>i[class*="icon-"] {
         color: var(--main-mark-color);
+    }
+    
+    .no-select {
+        -moz-user-select: -moz-auto;
+        -khtml-user-select: auto;
+        -webkit-user-select: auto;
+        -ms-user-select: auto;
+        user-select: auto;
     }
     
     /* ------------ */
