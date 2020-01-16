@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.2.1
+@version        0.2.2
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -549,6 +549,7 @@
 
     div[class*="GHPHQW3DNB GHPHQW3OMB"]>div[class*="gwt-HTML"] * {
         color: #ffffff !important;
+        background-color: transparent !important;
     }
     
     span[class*="add-on"] {
