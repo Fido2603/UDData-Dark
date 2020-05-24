@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.2.2
+@version        0.2.3
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -387,6 +387,10 @@
         height: 60em;
     }
     
+    .PXCNI2C-b-v {
+        background-color: var(--main-mark-color);
+    }
+    
     /* ------------ */
     
     /* Samtaler */
@@ -424,6 +428,26 @@
         color: black;
     }
     
+    textarea[class*="gwt-TextArea OEGVLWD-z-c input-block-level OEGVLWD-z-e"][style*="z-index: 1; padding-bottom: 6px; border-style: none; color: white;"] {
+        height: 100% !important;
+    }
+    
+    div[class*="gwt-HTML OEGVLWD-b-H"] {
+        color: #fff;
+    }
+    
+/*     div.OEGVLWD-b-k span.OEGVLWD-b-m {
+        color: #000;
+    } */
+    
+    .OEGVLWD-b-k {
+        background-color: var(--main-mark-color);
+    }
+    
+    a.gwt-Anchor[style*="color: black; cursor: default; text-decoration: none; flex: 0 1 auto;"] {
+        color: #fff !important;
+    }
+    
     /* ------------ */
     
     /* TEXT FIXES */
@@ -450,8 +474,20 @@
     
     /* Undervisningsplan */
     
-    div[class*="OUDPSOB-c-r OUDPSOB-c-G OUDPSOB-c-O OUDPSOB-c-k OUDPSOB-c-f"]>div[class*="OUDPSOB-c-r OUDPSOB-c-G OUDPSOB-c-k OUDPSOB-c-f OUDPSOB-a-z OUDPSOB-a-J OUDPSOB-a-D OUDPSOB-a-F OUDPSOB-c-P"]>div.gwt-Label, div[class*="OUDPSOB-c-r OUDPSOB-c-G OUDPSOB-c-O OUDPSOB-c-k OUDPSOB-c-f"]>div[class*="OUDPSOB-c-r OUDPSOB-c-G OUDPSOB-c-k OUDPSOB-c-f OUDPSOB-a-z OUDPSOB-a-J OUDPSOB-a-D OUDPSOB-a-C OUDPSOB-c-P"]>div.gwt-Label {
+    div[class*="OUDPSOB-c-r OUDPSOB-c-G OUDPSOB-c-O OUDPSOB-c-k OUDPSOB-c-f"]>div[class*="OUDPSOB-c-r OUDPSOB-c-G OUDPSOB-c-k OUDPSOB-c-f OUDPSOB-a-z OUDPSOB-a-J OUDPSOB-a-D OUDPSOB-a-F OUDPSOB-c-P"]>div.gwt-Label, div[class*="OUDPSOB-c-r OUDPSOB-c-G OUDPSOB-c-O OUDPSOB-c-k OUDPSOB-c-f"]>div[class*="OUDPSOB-c-r OUDPSOB-c-G OUDPSOB-c-k OUDPSOB-c-f OUDPSOB-a-z OUDPSOB-a-J OUDPSOB-a-D OUDPSOB-a-C OUDPSOB-c-P"]>div.gwt-Label, .I00A3XB-a-m {
         color: #000000;
+    }
+    
+    .I00A3XB-a-C, .I00A3XB-a-w {
+        background-color: var(--main-mark-color);
+    }
+    
+    .I00A3XB-a-o {
+        background-color: var(--main-bg-color);
+    }
+    
+    .I00A3XB-a-r {
+        background-color: #6fb3e0;
     }
     
     /* ------------ */
@@ -580,7 +616,7 @@
     
     /* Opgaver */
     
-    table[class*="table dataTable GJV5IN5BHT"] td[style*="padding: 20px; background-color: rgb(255, 242, 204);"] {
+    table[class*="table dataTable GJV5IN5BHT"] td[style*="padding: 20px; background-color: rgb(255, 242, 204);"], .IEA3S2-o-d {
         background-color: var(--main-mark-color) !important;
     }
 
@@ -600,11 +636,19 @@
         color: #ffffff;
     }
     
+    div[class*="OEGVLWD-c-r OEGVLWD-c-G OEGVLWD-c-O OEGVLWD-c-k OEGVLWD-c-f OEGVLWD-q-f"][style*="background-color: rgb(255, 243, 211)"] {
+        color: #000;
+    }
+    
+    div[class*="OEGVLWD-c-r OEGVLWD-c-G OEGVLWD-c-O OEGVLWD-c-k OEGVLWD-c-f OEGVLWD-q-f"][style*="background-color: rgb(236, 236, 236)"], div[class*="OEGVLWD-c-r OEGVLWD-c-G OEGVLWD-c-O OEGVLWD-c-k OEGVLWD-c-f OEGVLWD-q-f"][style*="background-color: rgb(229, 255, 225)"] {
+        background-color: var(--main-mark-color) !important;
+    }
+    
     
     /* ------------ */
     
     /* Skema TABEL */
-    .GHPHQW3P0, .GHPHQW3A1 table {
+    .GHPHQW3P0, .GHPHQW3A1 table, .ANSEYM-e-k, .ANSEYM-e-l table {
         background: var(--main-mark-color);
         color: #ffffff;
     }
@@ -613,20 +657,24 @@
         color: #ffffff;
     }
     
-    .GHPHQW3IOB {
+/*     .ANSEYM-eb-a {
+        background-color: var(--main-bg-color) !important;
+    } */
+    
+    .GHPHQW3IOB, .ANSEYM-eb-a {
         background-color: var(--main-bg-color) !important;
         border: none;
     }
     
-    table.GHPHQW3IOB th.fc-widget-header {
+    table.GHPHQW3IOB th.fc-widget-header, .ANSEYM-eb-a tbody tr th.fc-widget-header {
         border: none;
     }
     
-    .GHPHQW3A1 table tr th {
+    .GHPHQW3A1 table tr th, .ANSEYM-e-l table tr th {
         color: #ffffff;
     }
     
-    .GHPHQW3N0 table.GHPHQW3O0 td, .GHPHQW3N0 table.GHPHQW3O0 .GHPHQW3F0 {
+    .GHPHQW3N0 table.GHPHQW3O0 td, .GHPHQW3N0 table.GHPHQW3O0 .GHPHQW3F0, .ANSEYM-e-i table.ANSEYM-e-j td {
         background-color: var(--main-bg-color);
     }
     
@@ -655,10 +703,26 @@
     
     /* ------------ */
     
+    /* Om mig */
+    
+    .collapse, .widget-body {
+        background: var(--main-bg-color);
+    }
+    
+    .fladtab.tabbable .nav.nav-tabs {
+        height: 33px;
+    }
+    
+    /* ------------ */
+    
     /* Profil */
 
     .GNYJ4B4BMG, .GNYJ4B4BMG td, .GNYJ4B4BMG th {
         background: var(--main-bg-color) !important;
+    }
+    
+    .B3DS1B-j-d {
+        background-color: var(--main-mark-color);
     }
     
     /* ------------ */
