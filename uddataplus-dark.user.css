@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
 @namespace      github.com/Fido2603
-@version        0.2.3
+@version        0.2.4
 @description    Fuck UDDATA+
 @license     	MIT License
 @updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
@@ -44,7 +44,7 @@
     .alert {
         background-color: var(--main-bg-color);
         border: 1px solid var(--main-mark-color);
-        color: #ffffff;
+        color: #ffffff !important;
     }
     
     a {
@@ -661,7 +661,7 @@
         background-color: var(--main-bg-color) !important;
     } */
     
-    .GHPHQW3IOB, .ANSEYM-eb-a {
+    .GHPHQW3IOB, .ANSEYM-eb-a, .ANSEYM-e-a {
         background-color: var(--main-bg-color) !important;
         border: none;
     }
