@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name           UDDATA+ Dark
-@namespace      github.com/Fido2603
-@version        0.2.4
+@namespace      github.com/HeroGamers
+@version        0.2.5
 @description    Fuck UDDATA+
 @license     	MIT License
-@updateURL   	https://raw.githubusercontent.com/Fido2603/UDData-Dark/master/uddataplus-dark.user.css
+@updateURL   	https://raw.githubusercontent.com/HeroGamers/UDData-Dark/master/uddataplus-dark.user.css
 @author         Hero
 ==/UserStyle== */
 
@@ -655,6 +655,10 @@
     
     th.fc-widget-header div[class*="gwt-Label"] {
         color: #ffffff;
+    }
+    
+    .ANSEYM-fb-a {
+        background-color: var(--main-mark-color) !important;
     }
     
 /*     .ANSEYM-eb-a {
